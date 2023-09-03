@@ -1,0 +1,43 @@
+.container {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(243, 241, 241);
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addBlock {
+    margin-top: 10px;
+}
+
+hr {
+    width: 90vw;
+}
+
+h1 {
+    margin: 0;
+}
+
+input[type="button"] {
+    width: 13.5vw;
+    height: 30px;
+    padding: 0;
+
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+input[type="text"] {
+    width: 75vw;
+    height: 25px;
+    margin: 0 10px 10px 0;
+
+    &:focus {
+        outline-color: rgb(10, 168, 168);
+    }
+}
